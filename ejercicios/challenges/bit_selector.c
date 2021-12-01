@@ -25,9 +25,6 @@ int main ()
     unsigned N = 0;
     unsigned M = 3;
 
-    // unsigned result = (data >> N);
-    // unsigned result = (data >> N) & 0b1111;
-
     printf("\n========== * ==========\n\n");
 
      /**
