@@ -23,7 +23,15 @@ int main ()
 
     printf("\n========== * ==========\n\n");
 
+    printf("A = %u\n", a);
+    printf("B = %u\n", b);
 
+    printf("A & B = %u\n", a & b);
+    printf("A | B = %u\n", a | b);
+    printf("A ^ B = %u\n", a ^ b);
+
+    printf("A << 1 = %u\n", a << 1);
+    printf("A >> 1 = %u\n", a >> 1);
 
     printf("\n========== * ==========\n\n");
     return EXIT_SUCCESS;
